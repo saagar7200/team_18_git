@@ -106,8 +106,8 @@ class User {
 // console.log(add.age); //
 // add(12, 3);
 
-const u = new User("Ram", "ram@gmail.com");
-const u1 = new User("john", "john@gmail.com");
+// const u = new User("Ram", "ram@gmail.com");
+// const u1 = new User("john", "john@gmail.com");
 
 function introduce(age, address) {
   //   console.log(this);

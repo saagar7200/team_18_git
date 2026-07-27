@@ -14,7 +14,7 @@ console.log(20 + 3);
 
 var a = 10; // {a:10}
 
-console.log(a); //  10
+// console.log(a); //  10
 
 a = 300; //? reassignment {a:300}
 console.log("a"); // a
