@@ -52,3 +52,6 @@
 //! diff
 //* git  diff array..main
 //* git  diff --name-only array..main
+
+//todo: stash , revert, reset ,
+//todo: rebase , cherry-pick
