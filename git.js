@@ -47,6 +47,8 @@
 //! merge
 //* git merge <branch_name>
 
+//? merge conflict
+
 //! diff
 //* git  diff array..main
 //* git  diff --name-only array..main
