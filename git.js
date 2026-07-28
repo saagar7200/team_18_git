@@ -55,3 +55,16 @@
 
 //todo: stash , revert, reset ,
 //todo: rebase , cherry-pick
+
+// feature ->
+// modified file 1
+// modified file 2
+
+// emergency bug ->
+
+//* git stash
+//* git stash -m "<stash message>"
+//* git stash pop
+//* git stash apply
+
+// change 1
