@@ -77,3 +77,14 @@
 // reset
 // a -> b -> c -> d -> e
 // a -> b -> c -> d
+
+//! reset
+//? git reset <commit_id>
+//? git reset HEAD~n  => 1 // default --mixed
+// options
+//? --soft
+//* git reset --soft HEAD~n  => 1   -> staged
+//? --mixed
+//* git reset --mixed HEAD~n  => 1  -> wd
+//? --hard
+//* git reset --hard HEAD~n  => 1  -> delete
