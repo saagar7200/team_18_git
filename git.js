@@ -106,5 +106,8 @@
 //? main :  a -> b -> c -> d -> e
 //? feature :         c -> d -> e -> f' -> g' -> h'
 
+//todo: git pull , git fetch , git clone
+
 //! github
 //*pull request /PR
+//
