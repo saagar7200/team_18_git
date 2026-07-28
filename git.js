@@ -94,3 +94,4 @@
 //? git revert HEAD~n  => n= 1,2,3,4,
 
 //*  revert mistakes
+//*  revert mistakes
