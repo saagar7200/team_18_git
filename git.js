@@ -63,6 +63,7 @@
 // emergency bug ->
 
 //* git stash
+//* git -u stash
 //* git stash -m "<stash message>"
 //* git stash pop
 //* git stash apply
