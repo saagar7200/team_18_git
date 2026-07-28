@@ -88,3 +88,7 @@
 //* git reset --mixed HEAD~n  => 1  -> wd
 //? --hard
 //* git reset --hard HEAD~n  => 1  -> delete
+
+//! revert
+//? git revert <commit_id>
+//? git revert HEAD~n  => n= 1,2,3,4,
