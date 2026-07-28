@@ -92,3 +92,19 @@
 //! revert
 //? git revert <commit_id>
 //? git revert HEAD~n  => n= 1,2,3,4,
+
+//! cherry-pick
+//? main :  a -> b -> c
+//? feature : f -> g -> h
+//* git cherry-pick g   ->  a -> b -> c -> g
+
+//! rebase
+//? main :  a -> b -> c -> d -> e
+//? feature :         c -> f -> g -> h
+
+// git rebase main
+//? main :  a -> b -> c -> d -> e
+//? feature :         c -> d -> e -> f' -> g' -> h'
+
+//! github
+//*pull request /PR
