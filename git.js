@@ -63,7 +63,17 @@
 // emergency bug ->
 
 //* git stash
-//* git -u stash
 //* git stash -m "<stash message>"
 //* git stash pop
-//* git stash apply
+//* git stash apply stash@{n}
+//* git stash drop stash@{n}
+//* git stash clear
+
+// a -> b -> c -> d -> e
+// revert
+// a -> b -> c -> d -> e
+// a -> b -> c -> d -> e -> d'
+
+// reset
+// a -> b -> c -> d -> e
+// a -> b -> c -> d
